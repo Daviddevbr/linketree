@@ -1,0 +1,136 @@
+*{
+    transition: 1S;
+}
+@font-face {
+    font-family: 'vcr_osd_monoregular';
+    src: url('/fonts/vcr_osd_mono_1.001-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    background-color:#191816 ;
+    color:white; 
+    
+}
+
+/*===CABEÇALHO===*/
+header{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top:120px ;
+}
+
+.fotoperfil{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+img{
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: solid 5px #FFC632;
+}
+
+
+.sobre{
+    font-family: 'vcr_osd_monoregular';
+    font-size: 15pt;
+    margin-bottom: 48px;
+}
+/*===CORPOR BOTÕES===*/
+.corpo{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.corpobuttons{
+    width: 40%;
+    min-width: 300px;
+}
+/*===BOTÃO===*/
+.menubuttons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.linkrede{
+    width: 100%;
+    height: 53px;
+    margin-bottom:20px ;
+    background-color: #FFC632;
+    font-size: 12pt;
+    border-radius: 10px;
+    
+}
+.link{
+    text-decoration: none;
+    font-family: 'vcr_osd_monoregular';
+    color: black;
+}
+.linkrede:hover{
+    background-color: #c49727;
+}
+.link-rede{
+    text-decoration: none;
+    font-family: 'vcr_osd_monoregular'; 
+    color:black;
+  
+}
+/*===FOOTER===*/
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+    font-family: 'vcr_osd_monoregular';
+    
+
+}
+/*===MUDA A COR===*/
+.alteracor{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    
+}
+.cor{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c49727;
+    font-size: 14px;
+    color: black;
+    font-weight: 800;
+    cursor: pointer;
+}
+.cor:hover{
+    background-color: #FFC632;
+}
+.layout{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c49727;
+    color: black;
+    font-weight: 800;
+    cursor: pointer;
+}
+.layout:hover{
+    background-color: #FFC632;
+}
