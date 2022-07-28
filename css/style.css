@@ -12,6 +12,7 @@
 body{
     background-color:#191816 ;
     color:white; 
+    height:805px;
     
 }
 
@@ -95,42 +96,7 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
     font-family: 'vcr_osd_monoregular';
     
 
-}
-/*===MUDA A COR===*/
-.alteracor{
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 100px;
-    
-}
-.cor{
-    width: 150px;
-    height: 50px;
-    border: none;
-    border-radius: 5px;
-    background-color: #c49727;
-    font-size: 14px;
-    color: black;
-    font-weight: 800;
-    cursor: pointer;
-}
-.cor:hover{
-    background-color: #FFC632;
-}
-.layout{
-    width: 150px;
-    height: 50px;
-    border: none;
-    border-radius: 5px;
-    background-color: #c49727;
-    color: black;
-    font-weight: 800;
-    cursor: pointer;
-}
-.layout:hover{
-    background-color: #FFC632;
 }
